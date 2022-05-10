@@ -1,8 +1,9 @@
 SHELL   = sh
-CXX     = g++
+CXX     = /usr/local/Cellar/gcc/11.3.0/bin/g++-11
+CC      = /usr/local/Cellar/gcc/11.3.0/bin/gcc-11
 #CFLAGS = -g -std=gnu++11 $(INCLUDE)
 #CFLAGS = -g -std=gnu++11 -D_GLIBCXX_DEBUG $(INCLUDE)
-#CFLAGS = -O3 -DNDEBUG $(INCLUDE)
+# CFLAGS = -O3 -DNDEBUG $(INCLUDE)
 CFLAGS = -O3 -DNDEBUG -std=gnu++11 $(INCLUDE)
 
 LDFLAGS = -llapack
