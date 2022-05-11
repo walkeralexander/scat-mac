@@ -1,3 +1,24 @@
+# Instalation Prerequisites
+In order to use this repository you're going to need to install `g++11` and `gcc11`. The way you do this on mac is first by installing homebrew. The way to do that is https://brew.sh:
+```
+arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+Once you've followed those instructions, then do this:
+```
+arch -x86_64 brew install gcc@11
+```
+
+Then give the new c compilers a test:
+```
+/usr/local/Cellar/gcc/11.3.0/gcc11 --version
+/usr/local/Cellar/gcc/11.3.0/g++11 --version
+```
+
+If those run correctly, try the makefile in this repository.
+
+
+# Stephens999 intro
 Repository for the SCAT code from [Wasser et al](http://www.pnas.org/content/104/10/4228.full)
 
 If you download this code, please take a moment to "star" the repo (click star).
@@ -25,3 +46,4 @@ make
  cd src/
  ./SCAT3 ../docs/test.genotype.txt ../docs/test.location.txt . 2
 ```
+
