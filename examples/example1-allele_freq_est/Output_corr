@@ -1,0 +1,4 @@
+location1 location2 distance cov fittedcov corr fittedcorr
+Seattle Seattle 0 3.01051 5.84355 0.690788 1 
+NewYork Seattle 3866.21 -1.10242 0.239962 -0.183088 0.0510107 
+NewYork NewYork 0 4.51281 5.84355 0.883217 1 

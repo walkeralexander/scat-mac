@@ -1,0 +1,20 @@
+Posterior Mean Freqs:
+Locus 1
+      : Seattle NewYork 
+   94 :      0.192      0.093 
+   96 :      0.692      0.227 
+   98 :      0.116      0.680 
+Locus 2
+      : Seattle NewYork 
+   67 :      0.267      0.835 
+   69 :      0.733      0.165 
+Empirical Freqs:
+Locus 1
+      : Seattle NewYork 
+   94 :      0.167      0.000 
+   96 :      0.833      0.167 
+   98 :      0.000      0.833 
+Locus 2
+      : Seattle NewYork 
+   67 :      0.167      1.000 
+   69 :      0.833      0.000 
