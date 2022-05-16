@@ -1,0 +1,14 @@
+# Utilities
+pip-tools
+python-lsp-server[all]
+jedi-language-server
+black
+jupyterlab
+
+# Actual Packages
+pandas
+numpy
+geopandas
+pandas_bokeh
+matplotlib
+seaborn
